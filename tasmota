@@ -1,0 +1,17 @@
+MQTT
+topic
+dining_lights
+
+Configure Module
+
+Configure other
+{"NAME":"Shelly Vintage","GPIO":[0,0,0,0,416,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}
+
+Device Name
+light_dining_light_left_shelly_236
+
+SetOption59 1
+
+Backlog SetOption0 0; SetOption36 1
+
+rule1 on Power1#State=1 do Dimmer 100 endon
